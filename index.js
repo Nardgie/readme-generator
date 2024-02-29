@@ -32,14 +32,7 @@ const questions = [
         name: 'usage',
         message: 'How do you use your project?'
     },
-    // License
-    {
-        type: 'list',
-        name: 'license',
-        message: 'What license are you using for your project?',
-        choices: ['MIT', 'Apache 2.0', 'GPL 3.0', 'BSD 3']
-    },
-    // Contributing
+     // Contributing
     {
         type: 'input',
         name: 'contribution',
@@ -51,6 +44,26 @@ const questions = [
         name: 'tests',
         message: 'What tests are included in your project?'
     },
+    // License
+    {
+        type: 'list',
+        name: 'license',
+        message: 'What license are you using for your project?',
+        choices: ['MIT', 'Apache 2.0', 'GPL 3.0', 'BSD 3']
+    },
+    // Questions
+    {
+        type: "input",
+        name: "email",
+        message: "What is your email address?"
+    },
+    // github
+    {
+        type: "input",
+        name: "github",
+        message: "What is the URL to your Github profile?"
+    },
+
 
 ];
 
@@ -76,7 +89,7 @@ function init() {
     inquirer.prompt(questions).then((answers) => {
         console.log(answers);
         const readmeContent = generateMarkdown(answers);
-        fs.writeFile('README.md', readmeContent, (err) =>
+        fs.writeFile('README-demo.md', readmeContent, (err) =>
             err ? console.error(err) : console.log('Success!')
         );
     })

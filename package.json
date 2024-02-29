@@ -1,0 +1,22 @@
+{
+  "name": "readme-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \\\"Error: no test specified\\\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nardgie/readme-generator.git"
+  },
+  "author": "Nardgelen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nardgie/readme-generator/issues"
+  },
+  "homepage": "https://github.com/Nardgie/readme-generator#readme",
+  "dependencies": {
+    "inquirer": "^8.2.6"
+  }
+}

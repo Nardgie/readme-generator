@@ -21,6 +21,12 @@ To use the README Generator:
 - Answer the prompts regarding your project (e.g., project title, description, installation instructions, usage information, license, contributing guidelines, tests, and questions).
 - Upon completion, a README.md file will be generated in the output directory, tailored to your project based on your responses.
 
+Screen Recording of Functionality: 
+
+```md
+![screen-recording](https://watch.screencastify.com/v/2GluyzrOHD1xLDkghIiT)
+```
+
 ## Credits
 
 This project was developed by Nardgelen Jean Francois. Special thanks to the creators of Node.js and the Inquirer package for enabling this automation.

@@ -1,8 +1,13 @@
-# Readme Generator
-  ![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)
+# readme
+
+  ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+
   ## Description
-  Makes a Readme using node js and packages 
+
+  readme 
+
   ## Table of Contents
+
   * [Installation](#installation)
   * [Usage](#usage) 
   * [How to Contribute](#how-to-contribute)
@@ -12,18 +17,31 @@
   * [Credits](#credits)
   
   ## Installation
-  idgaf
+
+  sjhwk
+
   ## Usage
-  figure it out
+
+  jhjkaks
+
   ## License
-  This project is licensed under the BSD 3 license.
-  [BSD 3](https://opensource.org/licenses/BSD-3-Clause)
+
+  This project is licensed under the MIT license.
+  [MIT](https://opensource.org/licenses/MIT)
+
   ## Questions
-  If you have any questions, please feel free to reach out to me at nardge@ymail.com. You can also check out my GitHub profile here: (github.com/nardgie).
+
+  If you have any questions, please feel free to reach out to me at nj@yahoo,com. You can also check out my GitHub profile here: (github/narg).
+
   ## Credits
+
   undefined
+
   ## Tests
-  Jasmine
+
+  
+
   ## How to Contribute
-  Something
+  
+  
 
